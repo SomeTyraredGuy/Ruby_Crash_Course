@@ -4,7 +4,7 @@ require_relative '../app/student'
 
 Minitest::Reporters.use! [
                            Minitest::Reporters::HtmlReporter.new(
-                             reports_dir: 'mini_test/reports',
+                             reports_dir: 'mini_test/unit_reports',
                              report_filename: 'test_results.html',
                              # clean: true,
                              add_timestamp: true
